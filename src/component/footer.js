@@ -14,7 +14,7 @@ const Footer = () => {
                         accessible on
                         mobile and online for
                         everyone.</p>
-                        <p className='text-whitex font-normal text-lg mt-6'>eBike 2021. All right reserved.</p>
+                        <p className='text-whitex font-normal text-lg mt-6'>&copy; eBike {(new Date().getFullYear())} All right reserved.</p>
                                 
                     </div>
                     <div className='grid grid-cols-1 text-whitex md:grid-cols-2 gap-6 md:gap-10 lg:gap-16 justify-start items-start text-center md:text-left text-2xl md:text-lg'>

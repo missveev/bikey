@@ -28,7 +28,9 @@ const Hero = () => {
 
                         </div>
                     </div>
-                    <div className='flex justify-center flex-1 sm:mb-0 md:mb-16 lg:mb-0 border-2 w-full h-full' ref={container} />
+                    <div className='flex justify-center items-center flex-1 sm:mb-0 md:mb-16 lg:mb-0 w-full h-full'>
+                    <div className= "w-full h-full md:w-3/4 md:h-3/4" ref={container} />
+                    </div>
                 </div>
             </section>
         </>
