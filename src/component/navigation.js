@@ -15,10 +15,10 @@ const Navigation = () => {
         </div>
 
         <ul className='hidden lg:flex flex-1 flex-row items-end justify-end gap-14 font-sans text-xl text-dark-gray'>
-            <li ><a href='#home'>Product</a></li>
-            <li><a href='#packages'>Bike Type</a></li>
+            <li ><a href='#product'>Product</a></li>
+            <li><a href='#category'>Bike Type</a></li>
             <li><a href='#about'>About Us</a></li>
-            <li><a href='#about'>Testimonial</a></li>
+            <li><a href='#testimonial'>Testimonial</a></li>
             <li><a href='#contact'>Contact</a></li>
            
 
@@ -34,11 +34,11 @@ const Navigation = () => {
                         onClick={() => setToggleMenu(false)
                         } />
                     <ul className='flex justify-start items-start flex-col my-12 font-semibold text-3xl'>
-                        <li className='cursor-pointer m-4'><a href='#home'>Product</a></li>
-                        <li className='cursor-pointer m-4'><a href='#packages'>Bike Type</a></li>
+                        <li className='cursor-pointer m-4'><a href='#product'>Product</a></li>
+                        <li className='cursor-pointer m-4'><a href='#category'>Bike Type</a></li>
                         <li className='cursor-pointer m-4'><a href='#about'>About Us</a></li>
-                        <li className='cursor-pointer m-4'><a href='#contact'>Testimonial</a></li>
-                        <li className='cursor-pointer m-4'><a href="#cart">Contact</a></li>
+                        <li className='cursor-pointer m-4'><a href='#testimonial'>Testimonial</a></li>
+                        <li className='cursor-pointer m-4'><a href="#contact">Contact</a></li>
                         
                     </ul>
                 </div>
