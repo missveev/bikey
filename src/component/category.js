@@ -30,7 +30,7 @@ const Service = () => {
     return (
         <><Shape className='absolute left-0 w-3/4 md:w-fit' />
             <section className='relative py-16 px-4 md:px-16 lg:px-56 z-10 justify-center items-center' id="home">
-            <div className="flex flex-1 flex-row max-w-1/2 relative">
+            <div className="flex flex-1 flex-row max-w-full relative">
                 <div className="flex w-max overflow-x-scroll justify-between gap-10 scrollbar-hide" ref={scrollRef}>
                     {products.map((product) => (
                         
