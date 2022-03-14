@@ -28,7 +28,7 @@ const Service = () => {
         }
     };
     return (
-        <><Shape className='absolute left-0 w-3/4 md:w-fit' />
+        <><Shape className='absolute left-0 w-3/4 md:w-2/6' />
             <section className='relative py-16 z-10 justify-center items-center' id="category">
             <div className="flex flex-1 flex-row relative ml-4 md:ml-16 lg:ml-56 max-w-full">
                 <div className="flex overflow-x-scroll justify-between w-max gap-10 scrollbar-hide" ref={scrollRef}>
