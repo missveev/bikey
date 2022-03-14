@@ -17,11 +17,11 @@ const Footer = () => {
                         <p className='text-whitex font-normal text-lg mt-6'>&copy; eBike {(new Date().getFullYear())} All right reserved.</p>
                                 
                     </div>
-                    <div className='grid grid-cols-1 text-whitex md:grid-cols-2 gap-6 md:gap-10 lg:gap-16 justify-start items-start text-center md:text-left text-2xl md:text-lg'>
+                    <div className='grid grid-cols-2 text-whitex gap-6 md:gap-10 lg:gap-16 justify-start items-start text-center md:text-left text-2xl md:text-lg'>
                                 
                                 <div className='cursor-pointer'>
                                     <h1>Company</h1>
-                                    <div className="flex flex-col items-left font-normal mt-6 lg:mt-6 ">
+                                    <div className="flex flex-col items-left font-normal text-xl md:text-2xl mt-6 lg:mt-6 ">
                                         <li>Product</li>
                                         <li>Bike Type</li>
                                         <li>About Us</li>
@@ -30,7 +30,7 @@ const Footer = () => {
                                 </div>
                                 <div className='cursor-pointer'>
                                     <h1>Help</h1>
-                                    <div className="flex flex-col items-left font-normal mt-6 lg:mt-6 ">
+                                    <div className="flex flex-col items-left text-xl md:text-2xl font-normal mt-6 lg:mt-6 ">
                                         <li>Quality</li>
                                         <li>Help</li>
                                         <li>Share</li>
