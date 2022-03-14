@@ -29,9 +29,9 @@ const Service = () => {
     };
     return (
         <><Shape className='absolute left-0 w-3/4 md:w-fit' />
-            <section className='relative py-16 px-4 md:px-16 lg:px-56 z-10 justify-center items-center' id="home">
-            <div className="flex flex-1 flex-row max-w-full relative">
-                <div className="flex w-max overflow-x-scroll justify-between gap-10 scrollbar-hide" ref={scrollRef}>
+            <section className='relative py-16 z-10 justify-center items-center' id="home">
+            <div className="flex flex-1 flex-row relative ml-4 md:ml-16 lg:ml-56 max-w-full">
+                <div className="flex overflow-x-scroll justify-between w-max gap-10 scrollbar-hide" ref={scrollRef}>
                     {products.map((product) => (
                         
                             <div key={product.id} className='flex flex-col group px-4 w-full py-2 relative bg-whitex shadow-xl rounded-xl p6-6'>
@@ -56,13 +56,13 @@ const Service = () => {
                 </div>
 
 
-                <div className="flex justify-end items-end gap-6 py-3 ">
+                <div className="flex justify-center md:justify-end items-end gap-6 py-4 mr-16 ">
                     <BsArrowLeftShort className="bg-golden text-gray-dark w-10 h-10 rounded-full cursor-pointer font-xl" onClick={() => scroll('left')} />
                     <BsArrowRightShort className="bg-golden text-gray-dark w-10 h-10 rounded-full cursor-pointer font-xl" onClick={() => scroll('right')} />
 
                 </div>
 
-                <div className='flex flex-col py-10'>
+                <div className='flex flex-col py-10 ml-4 md:ml-16 lg:ml-56'>
                     <h2 className='text-2xl font-semibold'>Other Types of Bikes</h2>
                     <div className='flex flex-row justify-between gap-10'>
                         <Swiper
@@ -76,7 +76,7 @@ const Service = () => {
                             className="flex flex-row justify-between gap-10 mySwiper"
                         >
                             {othertypes.map((othertype) => (
-                                <SwiperSlide key={othertype.id} className='flex flex-col px-4  py-10 relative bg-whitex shadow-md w-72 rounded-xl pb-6'>
+                                <SwiperSlide key={othertype.id} className='flex flex-col px-4  py-10 relative bg-whitex shadow-xl w-72 rounded-xl pb-6'>
                         
                                         <div className="w-full min-h-80 overflow-hidden group-hover:opacity-75  lg:aspect-none">
                                                 <img src={othertype.imgUrl} className="w-full h-full object-center"
