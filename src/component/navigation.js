@@ -14,7 +14,7 @@ const Navigation = () => {
             <h2 className='font-sans text-blue text-2xl font-semibold pl-2'>eBike</h2>
         </div>
 
-        <ul className='hidden lg:flex flex-1 flex-row items-end justify-end gap-14 font-sans text-xl text-dark-gray'>
+        <ul className='hidden lg:flex flex-1 flex-row items-end justify-end gap-14 font-sans text-xl text-gray-light active:text-gray-dark'>
             <li ><a href='#product'>Product</a></li>
             <li><a href='#category'>Bike Type</a></li>
             <li><a href='#about'>About Us</a></li>

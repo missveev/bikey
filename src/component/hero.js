@@ -22,8 +22,8 @@ const Hero = () => {
                         <h1 className='text-4xl md:text-5xl font-semibold text-center lg:text-left mb-6 text-blue' >Your Bike Electric Update</h1>
                         <p className='text-l md:text-2xl text-center lg:text-left mb-6 text-gray-light'> Dummy text progressive, and affordable healthcare, accessible on mobile and online for everyone.</p>
 
-                        <div className='flex flex-row justify-between items-center rounded-full h-14 w-full md:h-14 px-6 py-4 border border-bluish'>
-                            <input type="text" className="font-xl" placeholder="Search Bike or anything" />
+                        <div className='flex flex-row justify-between items-center rounded-full gap-6 h-14 w-full md:h-14 px-6 py-4 border border-bluish'>
+                            <input type="text" className="font-xl w-full" placeholder="Search Bike or anything" />
                             <button className='btn flex flex-row rounded-full font-semibold bg-golden px-6 py-3'>Find</button>
 
                         </div>
